@@ -2,7 +2,7 @@
 
 /**
  * main - prints to string
- * prints quote without put or printf function
+ * Description: Prints "and that piece of art is useful.." without puts
  * Returns 1
  */
 
