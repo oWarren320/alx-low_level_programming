@@ -8,12 +8,13 @@
 
 int _isupper(int c);
 {
-	char alpha []= {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
-	if c == alpha;
-	return (1);
-	else ;
+	if (c == 'A')
 	{
-		return (0)
+		return (1);
+	}
+	else 
+	{
+		return (0);
 	}
 }
 
