@@ -2,11 +2,13 @@
 
 /**
  *
- *_strlen - count char in str
+ *_strlen -- return the length of a string
  *
- *@a : is the str counter
+ * @s: char to check
  *
+ * Description: this will return the length of a string
  *
+ * Return: 0 is success
  */
 
 
