@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * puts2 -prints every other character of a string
  *
@@ -7,12 +7,12 @@
  *
  * Return: 0 is success
  */
-void puts(char *str)
+void puts2(char *str)
 {
-	int string;
+	int i;
 
-	for (string = 0; str[string] != '\0'; string++)
-	if (string % 2 == 0)
-		_putchar(str[string]);
+	for (i = 0; str[i] != '\0'; i++)
+	if (i % 2 == 0)
+		_putchar(str[i]);
 	_putchar('\n');
 }
